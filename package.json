@@ -1,0 +1,33 @@
+{
+  "name": "samuel_gomes_portfolio",
+  "version": "1.0.0",
+  "description": "Este é um projeto de website pessoal e sistema de gerenciamento de conteúdo (CMS) desenvolvido para o ilustrador profissional **Samuel Gomes**. O objetivo é criar uma plataforma robusta para exibição de ilustrações, com um painel administrativo onde o ilustrador possa gerenciar suas obras de forma independente.",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kauasantos-dev/samuel-gomes-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kauasantos-dev/samuel-gomes-portfolio/issues"
+  },
+  "homepage": "https://github.com/kauasantos-dev/samuel-gomes-portfolio#readme",
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "babel-loader": "^10.1.1",
+    "css-loader": "^7.1.4",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.106.2",
+    "webpack-cli": "^7.0.2"
+  },
+  "dependencies": {
+    "core-js": "^3.49.0",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
